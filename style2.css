@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Audiowide&family=Bellota&family=Caveat&family=Libre+Baskerville&family=Lobster&family=Pacifico&family=Poppins:wght@400;500;600&family=Sedgwick+Ave+Display&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-color: #000000;
+}
+
+h1 {
+    background-color: #000000;
+    color: #760101;
+    font-family: "Sedgwick Ave Display";
+    font-weight: 500;
+    font-size: 50px;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.choice {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: #081b31;
+}
+
+.opt {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 20rem;
+    margin-bottom: 3rem;
+}
+
+#user-score {
+    font-size: 4rem;
+    font-family: "Sedgwick Ave Display";
+    color: rgb(232, 124, 10);
+}
+
+#comp-score {
+    font-size: 4rem;
+    font-family: "Sedgwick Ave Display";
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+#itachi {
+    margin-top: 20px;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+#msg {
+    font-size: 40px;
+    color: rgb(254, 254, 254);
+    border-radius: 30px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#txt1 {
+    color: rgb(240, 249, 63);
+}
+
+#txt2 {
+    color:rgb(171, 1, 1);
+}
+
+#title1 {
+    color: rgb(235, 123, 4);
+}
+
+#title2 {
+    color: rgb(255, 255, 255);
+}
