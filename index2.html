@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stone Paper Scissor</title>
+    <link rel="stylesheet" href="./style2.css" />
+</head>
+
+<body>
+    <h1><span id="title1">Naruto Uzumaki</span> <span id="title2">V/S</span> Itachi Uchiha</h1>
+    <div class="container">
+        <div class="players" id="naruto">
+            <img src="./resources2/naruto.png" height="600px" alt="">
+        </div>
+        <div class="game">
+            <!-- Choices Display -->
+            <div class="choices">
+                <!-- Choice 1 -->
+                <div class="choice" id="rock">
+                    <img class="opt" src="./resources2/Stone.png" />
+                </div>
+                <!-- Choice 2 -->
+                <div class="choice" id="paper">
+                    <img class="opt" src="./resources2/Paper.png" />
+                </div>
+                <!-- Choice 3 -->
+                <div class="choice" id="scissors">
+                    <img class="opt" src="./resources2/Scissor.png" />
+                </div>
+            </div>
+            <!-- Score Board -->
+            <div class="score-board">
+                <div class="score">
+                    <p id="user-score">0</p>
+                    <p id="txt1">Naruto (You)</p>
+                </div>
+                <div class="score">
+                    <p id="comp-score">0</p>
+                    <p id="txt2">Itachi (Opponent)</p>
+                </div>
+            </div>
+            <div class="msg-container">
+                <p id="msg">Play your move Naruto Uzumaki..!</p>
+            </div>
+        </div>
+        <div class="players" id="itachi">
+            <img src="./resources2/itachi.png" height="610px" alt="">
+        </div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+
+</html>
