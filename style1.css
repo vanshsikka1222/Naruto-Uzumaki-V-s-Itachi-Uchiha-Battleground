@@ -59,14 +59,13 @@ h1 {
 #resetbtn {
     padding: 1rem;
     font-size: 1.25rem;
-    background-color: rgb(232, 124, 10);
+    background-color: rgba(2, 16, 110, 0.816);
     border-radius: 1rem;
-    color: #760101;
+    color: #ffffff;
 }
 
 #newbtn {
     padding: 1rem;
-    margin: 10px 0px;
     font-size: 1.25rem;
     border-radius: 1rem;
     margin-bottom: 2rem;
@@ -78,7 +77,7 @@ h1 {
 }
 
 .msgbox {
-    margin-top: 30px;
+    margin-top: 30vmin;
 }
 
 .hide {
@@ -102,40 +101,4 @@ h1 {
 .winner {
     height: 140px;
     width: 50px;
-}
-
-@media only screen and (max-width: 426px) {
-    h1{
-        font-size: 54px;
-    }
-
-    .narutoimg {
-        height: 120px;
-        width: 50px;
-    }
-
-    .itachiimg {
-        height: 120px;
-        width: 50px;
-    }
-
-    #p1{
-        position: relative;
-        bottom: 164px;
-        left: 70px;
-    }
-
-    #p2{
-        position: relative;
-        bottom: 181px;
-        right: 70px;
-    }
-
-    .container{
-        margin-top: 24px;
-    }
-
-    .game{
-        margin-top: 56px;
-    }
 }
