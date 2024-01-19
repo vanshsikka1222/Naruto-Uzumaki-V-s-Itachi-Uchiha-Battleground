@@ -27,14 +27,13 @@ video {
 
 .content {
     position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 10%;
+    left: 5%;
     /* color: #fff; */
 }
 
 h1 {
-    font-size: 120px;
+    font-size: 102px;
     font-family: "Sedgwick Ave Display";
     text-shadow: 10px 5px 10px rgb(0, 0, 0);
     color: transparent;
@@ -64,7 +63,50 @@ h1 {
     transition: rgb(232, 124, 10) 1.5s ease;
     font-family: "Sedgwick Ave Display";
 }
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 100px 10px 100px;
+}
   
 .button:hover {
     background-color: rgb(0, 0, 0);
+}
+
+
+@media only screen and (max-width: 426px) {
+    /* responsive styles for M-sized phone here */
+    body {
+      font-size: 14px; 
+    }
+
+    h1 {
+    font-size: 54px;
+    font-family: "Sedgwick Ave Display";
+    text-shadow: 10px 5px 10px rgb(0, 0, 0);
+    color: transparent;
+    }
+
+    .button {
+        padding: 5px 5px;
+        font-size: 15px;
+        color: #fff;
+        border-color: #fff;
+        background-color: #424242;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: rgb(232, 124, 10) 1.5s ease;
+        font-family: "Sedgwick Ave Display";
+        width: 158px;
+        height: 50px;
+    }
+
+    
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 100px 10px 89px;
+}
+
 }
