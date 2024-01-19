@@ -8,6 +8,8 @@ let newbtn = document.querySelector("#newbtn");
 let msgbox = document.querySelector(".msgbox");
 //Selecting message para
 let msg = document.querySelector("#msg");
+//Selcting container
+let cont = document.querySelector(".container");
 
 //Alternate turns of 2 players (Player O) and Player X)
 let turnO = true;
@@ -95,6 +97,7 @@ const showWinner = (winner) => {
     else {
         msg.innerText = `Winner is Naruto Uzumaki`;
     }
+    resetbtn.classList.add("hide");
     msgbox.classList.remove("hide");
     //Disable all Boxes
     disableBoxes();
@@ -108,6 +111,7 @@ const resetAllGame = () => {
     enableBoxes();
     //Hide msgbox
     msgbox.classList.add("hide");
+    resetbtn.classList.remove("hide");
 }
 
 newbtn.addEventListener("click", resetAllGame);
